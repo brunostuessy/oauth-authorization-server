@@ -434,6 +434,7 @@
     "redirectUris" : [ "http://localhost:8082/new-client/login/oauth2/code/custom",
     "http://localhost:8089/",
     "http://localhost:8089/auth/redirect/",
+    "http://localhost:8082/oauth-client-spring",
     "http://localhost:8082/oauth-client-spring/login/oauth2/code/custom"],
     "webOrigins" : [ "+" ],
     "notBefore" : 0,
