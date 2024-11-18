@@ -1,0 +1,3 @@
+keycloak:
+  server:
+    realmImportFile: baeldung-realm-os-dev.json
