@@ -432,7 +432,7 @@
     "clientAuthenticatorType" : "client-secret",
     "secret" : "newClientSecret",
     "redirectUris" : [ "https://oauth-spring-client-bruno-stuessi-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com//new-client/login/oauth2/code/custom",
-    "https://oauth-angular-client-bruno-stuessi-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com//",
+    "https://oauth-angular-client-bruno-stuessi-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/",
     "https://oauth-angular-client-bruno-stuessi-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com//auth/redirect/",
     "https://oauth-spring-client-bruno-stuessi-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/oauth-client-spring/login/oauth2/code/custom"],
     "webOrigins" : [ "+" ],
