@@ -19,6 +19,7 @@ public class AuthorizationServerApp {
 
 	private static final Logger LOG = LoggerFactory.getLogger(AuthorizationServerApp.class);
 
+
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(AuthorizationServerApp.class, args);
 	}
@@ -26,9 +27,7 @@ public class AuthorizationServerApp {
 	@Bean
 	ApplicationListener<ApplicationReadyEvent> onApplicationReadyEventListener(ServerProperties serverProperties,
 			KeycloakServerProperties keycloakServerProperties) {
-
 		return (evt) -> {
-
 			Integer port = serverProperties.getPort();
 			String keycloakContextPath = keycloakServerProperties.getContextPath();
 
